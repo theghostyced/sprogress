@@ -1,0 +1,19 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb"],
+  "env": {
+    "mocha": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "rules": {
+    "comma-dangle": ["error", "only-multiline"],
+    "no-unused-vars": "warn",
+    "no-console": "off",
+    "no-use-before-define": "off",
+    "arrow-body-style": "off",
+    "no-tabs": "off"
+  },
+  "plugins": ["prettier"]
+}
