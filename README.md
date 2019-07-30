@@ -78,14 +78,14 @@ The `init` function takes in an object which is used to customize the SProgress 
 
 **N.B** - If you are using the CDN, you don't need to call the init method simply add the `script` tag and you all set 😁
 
-### Events
+## Events
 
 `SProgress` also triggers the `scrollDistanceEvent` event when the specified `scrollDistanceTarget` is reached by the progress bar. This can be useful if you want to display
 a feature to the user(maybe a newsletter modal) when they are half way into the page/article.
 
 **`Event`** - `scrollDistanceEvent`
 
-#### Implementation
+### Implementation
 
 ```javascript
 import SProgress from 'sprogress';
@@ -100,7 +100,7 @@ document.addEventListener('scrollDistanceEvent', displayNewsLetterModal, {
 ```
 
 **N.B** - The `once` object passed to the `addEventListener` in other to invoke the `handler` only once. Highly recommended
-if you don't want the handler trigger more than once.
+if you don't want the handler trigger more than once. <a href="https://developers.google.com/web/updates/2016/10/addeventlistener-once" target="_blank">Have a look here to learn more</a>
 
 ## Options
 
